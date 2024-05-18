@@ -4630,7 +4630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-28_W15.24mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-28_W15.24mm"
 			(at 177.8 51.816 0)
 			(effects
 				(font
