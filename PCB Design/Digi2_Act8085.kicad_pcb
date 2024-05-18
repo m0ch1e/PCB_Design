@@ -473,7 +473,9 @@
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
 		(layer "F.Cu")
 		(uuid "03668995-8f4b-412f-aed8-bcf1aa27a1a6")
-		(at 69.805 53.71 -90)
+
+		(at 69.805 55.21 -90)
+
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "U3"
@@ -2100,7 +2102,9 @@
 	(footprint "Ferrite_THT:LairdTech_28C0236-0JW-10"
 		(layer "F.Cu")
 		(uuid "1bbb8f97-0b6b-493f-9428-425352ba4d96")
-		(at 50.54 46 180)
+
+		(at 50.54 47.5 180)
+
 		(descr "Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters")
 		(tags "Ferrite vertical LairdTech 28C0236-0JW-10")
 		(property "Reference" "FB1"
@@ -4137,7 +4141,9 @@
 	(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "5febe8b4-af0b-478a-9709-f94a61dda4f2")
-		(at 61.25 46)
+
+		(at 61.25 47.5)
+
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
 		(property "Reference" "C11"
@@ -7922,7 +7928,9 @@
 	(footprint "LED_THT:LED_D8.0mm"
 		(layer "F.Cu")
 		(uuid "8d7fec9a-b605-45f8-a63f-7c3181ef19b1")
-		(at 63 63.75 180)
+
+		(at 63 65.25 180)
+
 		(descr "LED, diameter 8.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LED8MMGE_LED8MMGN_LED8MMRT%23KIN.pdf")
 		(tags "LED diameter 8.0mm 2 pins")
 		(property "Reference" "D1"
@@ -8140,7 +8148,9 @@
 	(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "8e2a7256-3cf7-4e51-b5c2-37ebc2b5987a")
-		(at 69.044888 46)
+
+		(at 69.044888 47.5)
+
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
 		(property "Reference" "C1"
@@ -9505,7 +9515,9 @@
 	(footprint "Connector_BarrelJack:BarrelJack_Horizontal"
 		(layer "F.Cu")
 		(uuid "952beb10-221f-45c9-931a-d67552e45e9d")
-		(at 42.5 55.75)
+
+		(at 42.5 57.25)
+
 		(descr "DC Barrel Jack")
 		(tags "Power Jack")
 		(property "Reference" "U2"
@@ -10165,7 +10177,9 @@
 	(footprint "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
 		(layer "F.Cu")
 		(uuid "97c39254-1a59-4547-bb74-f91edb10ced3")
-		(at 55.232513 46)
+
+		(at 55.232513 47.5)
+
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=4mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm  diameter 4mm Electrolytic Capacitor")
 		(property "Reference" "C10"
@@ -12729,7 +12743,9 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e7764835-bd26-4831-b1ed-310a4776ccce")
-		(at 46.69 60.5)
+
+		(at 46.69 62)
+
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R1"
@@ -13001,7 +13017,9 @@
 	(footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "ec1768f8-9b2e-4db2-bf24-e80e6ab9fee6")
-		(at 47.38 53.75)
+
+		(at 47.38 55.25)
+
 		(descr "Diode, DO-201AD series, Axial, Horizontal, pin pitch=15.24mm, , length*diameter=9.5*5.2mm^2, , http://www.diodes.com/_files/packages/DO-201AD.pdf")
 		(tags "Diode DO-201AD series Axial Horizontal pin pitch 15.24mm  length 9.5mm diameter 5.2mm")
 		(property "Reference" "D2"
@@ -13355,92 +13373,12 @@
 		)
 	)
 	(segment
-		(start 65.057006 53.5)
-		(end 58.557006 47)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "01f6ba61-6eb1-4f37-a249-40e81b876e07")
-	)
-	(segment
-		(start 58.557006 47)
-		(end 56.232513 47)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "12295d6a-5ee9-4343-8b12-862970d30231")
-	)
-	(segment
-		(start 69.805 53.71)
-		(end 69.805 53.555)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "151c93b7-c1a0-47dc-9fce-d8a730f835f8")
-	)
-	(segment
-		(start 69.805 53.555)
-		(end 69.75 53.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "5037e94a-ccc3-48fd-a64c-d193ca9358a6")
-	)
-	(segment
-		(start 56.232513 47)
-		(end 55.232513 46)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "77748ce9-a3a8-447a-a15c-ade97cc474d0")
-	)
-	(segment
-		(start 69.75 53.5)
-		(end 65.057006 53.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "bc557c45-c96a-4a77-ab27-2f7f10868d9b")
-	)
-	(segment
-		(start 62.75 41.5)
-		(end 61.25 43)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "3409aeab-16a4-454f-ac51-2d205dc78f6d")
-	)
-	(segment
 		(start 92.925 88.095)
 		(end 94.255 89.425)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 3)
 		(uuid "6b9dd4c4-9c20-44eb-aa32-272666cad185")
-	)
-	(segment
-		(start 67.25 46)
-		(end 62.75 41.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "dd0f8f36-c20e-42c4-952e-8a10982357f3")
-	)
-	(segment
-		(start 69.044888 46)
-		(end 67.25 46)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "e865ccc0-8f25-4958-8fb5-e4eb6681a2df")
-	)
-	(segment
-		(start 61.25 43)
-		(end 61.25 46)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "f489d5d6-bd0d-484e-90fc-c567f40878fb")
 	)
 	(group ""
 		(uuid "294fc143-d30b-494b-afc3-a7bd670b4d8e")
