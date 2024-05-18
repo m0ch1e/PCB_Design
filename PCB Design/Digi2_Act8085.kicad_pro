@@ -178,9 +178,6 @@
       ],
       "track_widths": [
         0.0,
-        0.0,
-        0.0,
-        0.1,
         0.25,
         0.5,
         0.75,
@@ -218,15 +215,15 @@
           "drill": 0.0
         },
         {
+          "diameter": 0.5,
+          "drill": 0.25
+        },
+        {
           "diameter": 0.75,
           "drill": 0.5
         },
         {
-          "diameter": 1.0,
-          "drill": 0.5
-        },
-        {
-          "diameter": 1.0,
+          "diameter": 1.25,
           "drill": 0.75
         }
       ],
