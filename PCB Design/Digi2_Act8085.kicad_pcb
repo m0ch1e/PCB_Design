@@ -221,7 +221,7 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "020f8390-3649-443e-a45d-9793afab0f30")
-		(at 82.81 83.425)
+		(at 66.625 105.67)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C2"
@@ -778,7 +778,7 @@
 	(footprint "Crystal:Crystal_HC49-U_Vertical"
 		(layer "F.Cu")
 		(uuid "061c834c-a42f-4aa3-84a1-1afd962fb83f")
-		(at 68.925 87.795 -90)
+		(at 52.74 110.04 -90)
 		(descr "Crystal THT HC-49/U http://5hertz.com/pdfs/04404_D.pdf")
 		(tags "THT crystalHC-49/U")
 		(property "Reference" "Y1"
@@ -1058,7 +1058,7 @@
 	(footprint "Package_DIP:DIP-16_W7.62mm_Socket"
 		(layer "F.Cu")
 		(uuid "14453eec-df58-432d-bfe0-cc02cb17e69f")
-		(at 100.24 81.36)
+		(at 84.055 103.605)
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
 		(property "Reference" "U7"
@@ -1557,11 +1557,11 @@
 	(footprint "Package_DIP:DIP-20_W7.62mm_Socket"
 		(layer "F.Cu")
 		(uuid "16420888-62c8-4b5e-af43-3e192d63a8e2")
-		(at 100.79 113.27)
+		(at 84.605 135.515)
 		(descr "20-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
 		(property "Reference" "U6"
-			(at 8.37 -2.72 360)
+			(at 8.37 -2.72 0)
 			(layer "F.SilkS")
 			(uuid "00c73f28-882e-48b7-aac8-ada41a2dc93c")
 			(effects
@@ -1572,7 +1572,7 @@
 			)
 		)
 		(property "Value" "74LS373"
-			(at 7.945 26.37 360)
+			(at 7.945 26.37 0)
 			(layer "F.Fab")
 			(uuid "d62f62d5-5758-4e36-9c81-2d0abcf550bc")
 			(effects
@@ -1855,7 +1855,7 @@
 			(uuid "cf4d8769-3569-4547-922d-59c25aa17a10")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.945 12.61 360)
+			(at 7.945 12.61 0)
 			(layer "F.Fab")
 			(uuid "1d345e05-9dc7-4bee-bb2c-c8cf2bf2021a")
 			(effects
@@ -2320,11 +2320,11 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "23234be7-e4d2-4b44-9766-6a07e219cb5a")
-		(at 116.5 86.76 90)
+		(at 156.53 104.76 90)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C9"
-			(at 2.5 -2.2 270)
+			(at 2.5 -2.2 -90)
 			(layer "F.SilkS")
 			(uuid "9caa4f34-61ee-40fb-b844-476c34a8ba7a")
 			(effects
@@ -2335,7 +2335,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 2.5 2.2 270)
+			(at 2.5 2.2 -90)
 			(layer "F.Fab")
 			(uuid "51d76703-e971-44d9-99e5-419325ec6ec0")
 			(effects
@@ -2527,7 +2527,7 @@
 			(uuid "a9d2462d-881e-4e89-9844-19d01eb545c9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 270)
+			(at 2.5 0 -90)
 			(layer "F.Fab")
 			(uuid "4c938d60-a65b-4b97-a7b2-d779c9cdcbf1")
 			(effects
@@ -2572,11 +2572,11 @@
 	(footprint "Package_DIP:DIP-40_W15.24mm"
 		(layer "F.Cu")
 		(uuid "2482cbf1-cde0-4cbe-894f-c4111b1890a7")
-		(at 121.085 48.615 90)
+		(at 160.92 56.74 90)
 		(descr "40-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 15.24mm 600mil")
 		(property "Reference" "U10"
-			(at 7.62 -2.33 270)
+			(at 7.62 -2.33 -90)
 			(layer "F.SilkS")
 			(uuid "719167ff-7175-48b2-8780-b964aa0589bb")
 			(effects
@@ -2587,7 +2587,7 @@
 			)
 		)
 		(property "Value" "8255"
-			(at 7.62 50.59 270)
+			(at 7.62 50.59 -90)
 			(layer "F.Fab")
 			(uuid "d25e69a4-79ea-4e9e-a01a-c7af15441bb5")
 			(effects
@@ -2790,7 +2790,7 @@
 			(uuid "2ee2ed3a-67b6-482c-9c3b-e89f009454e3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.62 24.13 270)
+			(at 7.62 24.13 -90)
 			(layer "F.Fab")
 			(uuid "792196f1-c7b1-4c42-8e1b-a1c1ca805d3c")
 			(effects
@@ -3255,7 +3255,7 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "3e711215-9302-4923-908a-a045b8c3467d")
-		(at 101.61 76.27)
+		(at 85.425 98.515)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C3"
@@ -3507,7 +3507,7 @@
 	(footprint "Package_DIP:DIP-28_W15.24mm_Socket"
 		(layer "F.Cu")
 		(uuid "4475afc7-9d00-4716-9d5c-8992313e1896")
-		(at 122.82 103.225)
+		(at 162.85 121.225)
 		(descr "28-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils), Socket")
 		(tags "THT DIP DIL PDIP 2.54mm 15.24mm 600mil Socket")
 		(property "Reference" "U5"
@@ -5502,7 +5502,7 @@
 	(footprint "Package_DIP:DIP-28_W15.24mm"
 		(layer "F.Cu")
 		(uuid "62d0b174-52a6-48f3-8be5-126e17a41c58")
-		(at 152.3 103.19)
+		(at 192.33 121.19)
 		(descr "28-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 15.24mm 600mil")
 		(property "Reference" "U4"
@@ -6053,11 +6053,11 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "6518176e-f88b-4ec9-ba49-c582ea38ddb4")
-		(at 116.54 65.76 90)
+		(at 156.375 73.885 90)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C8"
-			(at 2.5 -2.2 270)
+			(at 2.5 -2.2 -90)
 			(layer "F.SilkS")
 			(uuid "e5308b85-88a9-47a1-9c5d-0911505a13b1")
 			(effects
@@ -6068,7 +6068,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 2.5 2.2 270)
+			(at 2.5 2.2 -90)
 			(layer "F.Fab")
 			(uuid "5600241a-688c-44d8-ba50-78b6497227c0")
 			(effects
@@ -6260,7 +6260,7 @@
 			(uuid "e9e06b3d-4013-4553-974f-22318fc6426a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 270)
+			(at 2.5 0 -90)
 			(layer "F.Fab")
 			(uuid "7b56f4a4-6668-4a6e-92ae-04484c3539f2")
 			(effects
@@ -6305,7 +6305,7 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "66fb4000-3a06-4ae3-acfc-8223f3470e52")
-		(at 128.06 98.07)
+		(at 168.09 116.07)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C5"
@@ -6557,7 +6557,7 @@
 	(footprint "Package_DIP:DIP-40_W15.24mm"
 		(layer "F.Cu")
 		(uuid "694cfa16-d93f-4a44-96c0-ff6dfc493fc2")
-		(at 77.685 88.095)
+		(at 61.5 110.34)
 		(descr "40-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 15.24mm 600mil")
 		(property "Reference" "U1"
@@ -7239,11 +7239,11 @@
 	(footprint "Package_DIP:DIP-40_W15.24mm"
 		(layer "F.Cu")
 		(uuid "828f7284-044a-4d98-b981-9397a03b45ce")
-		(at 120.94 92.25 90)
+		(at 160.97 110.25 90)
 		(descr "40-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 15.24mm 600mil")
 		(property "Reference" "U8"
-			(at 7.62 -2.44 270)
+			(at 7.62 -2.44 -90)
 			(layer "F.SilkS")
 			(uuid "f03bc48e-6a8f-4788-b2ff-7564e77a26f3")
 			(effects
@@ -7254,7 +7254,7 @@
 			)
 		)
 		(property "Value" "8255"
-			(at 7.62 50.59 270)
+			(at 7.62 50.59 -90)
 			(layer "F.Fab")
 			(uuid "cf43fd6a-9a9d-4753-920e-7561c845c40d")
 			(effects
@@ -7457,7 +7457,7 @@
 			(uuid "ff6da4ae-06e0-4efd-a8e4-c13ea7e6fd67")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.62 24.13 270)
+			(at 7.62 24.13 -90)
 			(layer "F.Fab")
 			(uuid "0cb145ec-33f1-4dca-b75d-8402d442c87a")
 			(effects
@@ -9899,7 +9899,7 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "95fa95fb-078b-4a7f-99d3-3809500d264b")
-		(at 68.925 100.092349 -90)
+		(at 52.74 122.337349 -90)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C12"
@@ -11290,11 +11290,11 @@
 	(footprint "Package_DIP:DIP-40_W15.24mm"
 		(layer "F.Cu")
 		(uuid "c017887c-2179-4258-8735-a8c979299385")
-		(at 120.99 71.25 90)
+		(at 160.825 79.375 90)
 		(descr "40-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 15.24mm 600mil")
 		(property "Reference" "U9"
-			(at 7.62 -2.33 270)
+			(at 7.62 -2.33 -90)
 			(layer "F.SilkS")
 			(uuid "1730afad-12e7-4937-a850-36e8b25d6b03")
 			(effects
@@ -11305,7 +11305,7 @@
 			)
 		)
 		(property "Value" "8255"
-			(at 7.62 50.59 270)
+			(at 7.62 50.59 -90)
 			(layer "F.Fab")
 			(uuid "47ad6310-14ec-48e6-b7d7-68d02438ff9f")
 			(effects
@@ -11508,7 +11508,7 @@
 			(uuid "3b6942d2-aacc-4302-99bf-84cdcb3af845")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.62 24.13 270)
+			(at 7.62 24.13 -90)
 			(layer "F.Fab")
 			(uuid "d54b392c-b576-4a81-beca-51ecf87c3d39")
 			(effects
@@ -11973,11 +11973,11 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "c077b28b-b761-419d-b90e-0818e4851e89")
-		(at 102.41 109.3)
+		(at 86.225 131.545)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C4"
-			(at 2.18 -5.355 360)
+			(at 2.18 -5.355 0)
 			(layer "F.SilkS")
 			(uuid "054c65e8-f8e6-4472-aeb2-adc8591c408b")
 			(effects
@@ -11988,7 +11988,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 2.5 2.2 360)
+			(at 2.5 2.2 0)
 			(layer "F.Fab")
 			(uuid "86c362a5-ed1f-4b43-9a5b-a6d41832d045")
 			(effects
@@ -12180,7 +12180,7 @@
 			(uuid "fffd40f1-43c6-4c49-a213-de6183414864")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.Fab")
 			(uuid "cfb629ca-7868-418f-a66f-80b151f8d0de")
 			(effects
@@ -12225,7 +12225,7 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "d3be64f5-5b8e-4124-b936-4633355bf3b0")
-		(at 156.675 98.115)
+		(at 196.705 116.115)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C6"
@@ -12477,11 +12477,11 @@
 	(footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "d868ed48-1578-4fee-9d5d-b37a23dfcb79")
-		(at 116.54 44.51 90)
+		(at 156.375 52.635 90)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C7"
-			(at 2.5 -2.55 270)
+			(at 2.5 -2.55 -90)
 			(layer "F.SilkS")
 			(uuid "01f1dfaa-26c6-43a6-90c9-da0458b29149")
 			(effects
@@ -12492,7 +12492,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 2.5 2.2 270)
+			(at 2.5 2.2 -90)
 			(layer "F.Fab")
 			(uuid "6c619096-e01b-47dc-9623-cd9f4a0e6803")
 			(effects
@@ -12684,7 +12684,7 @@
 			(uuid "d1c9d1bf-5c15-4420-80a2-c1648b12659a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 270)
+			(at 2.5 0 -90)
 			(layer "F.Fab")
 			(uuid "325b7651-89ee-4045-b50c-fc12bfcd7ebf")
 			(effects
@@ -13355,8 +13355,8 @@
 		)
 	)
 	(segment
-		(start 92.925 88.095)
-		(end 94.255 89.425)
+		(start 76.74 110.34)
+		(end 78.07 111.67)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 3)
